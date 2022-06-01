@@ -1,0 +1,39 @@
+.trackersContainer {
+  width: 100%;
+  margin-top: 84px;
+  padding: 0 137px
+}
+
+.dateContainer {
+  display: inline-flex;
+  align-items: center;
+}
+
+.startStop {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 95px;
+  gap: 15px;
+}
+
+.buttonStart {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.buttonStart img{
+  padding-right: 5px;
+}
+
+.todo_header {
+  padding: 0 10px;
+  border-radius: 5px;
+  height: 70px;
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  background: #F9F9FD;
+}

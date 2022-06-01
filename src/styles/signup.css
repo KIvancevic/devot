@@ -1,0 +1,50 @@
+.container2 div {
+  min-width: 390px;
+  max-width: 400px;
+  margin: auto;
+  height: 92px;
+  text-align: center;
+}
+
+.container2 div form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
+.register {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  min-width: 390px;
+  max-width: 400px;
+  background: #F9F9FD;
+  height: 92px;
+  margin: auto;
+  margin-top: 390px;
+}
+
+.register div p {
+  font-size: 18px;
+}
+
+.register div a {
+  color: #FF5722;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 960px) {
+  .container2 div {
+      width: 80%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .container2 div,
+  .register {
+      width: 100%;
+      min-width: 0;
+  }
+
+}
